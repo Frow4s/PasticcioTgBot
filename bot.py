@@ -37,7 +37,7 @@ async def main():
 
     # Инициализируем бот и диспетчер
     bot: Bot = Bot(token=config.tg_bot.token, parse_mode='HTML')
-    dp: Dispatcher = Dispatcher(bot, storage= storage)
+    dp: Dispatcher = Dispatcher(bot, storage=storage)
 
     # Регистрируем все хэндлеры
     register_all_handlers(dp)
