@@ -19,8 +19,13 @@ Pasticcio uses a number of open source projects and researhes to work properly:
 - [Multi-style Generative Network for Real-time Transfer](http://computervisionrutgers.github.io/MSG-Net/) - CV research about how to style image
 - [Aiogram](https://github.com/aiogram/aiogram) - asynchronous API for telegram bots
 - [MSGNet](https://github.com/zhanghang1989/PyTorch-Multi-Style-Transfer) - research implementation
-
-## Installation
+## Installation from Docker Hub
+Just run command:
+```sh
+docker run -e BOT_TOKEN=*YOUR_TOKEN* frow4s/pasticcio:cpu
+```
+Now your bot should work
+## Installation from github
 
 - Download project
 - Change file name '.env.example' to '.env'
@@ -33,12 +38,3 @@ Now everything should work, just run "bot".
 ## Example of working
 
 ![](example.gif)
-
-
-
-
-
-
-
-
-
